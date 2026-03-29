@@ -1,0 +1,136 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  border-radius: 12px;
+  width: 100%;
+  max-width: 656px;
+  height: auto;
+  margin: 30px auto 0px auto;
+}
+h1.young-serif-regular,
+h2 {
+  font-family: 'Young Serif', serif;
+  font-weight: normal;
+  font-size: 40px;
+  color: #312e2c;
+}
+p.easy-dish {
+  /*border: 2px solid rgb(166, 25, 138);*/
+  margin-bottom: 32px;
+}
+h2 {
+  font-size: 28px;
+  color: rgb(133, 70, 50);
+}
+h3 {
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  color: #7a284e;
+
+  margin: 24px 24px 16px;
+}
+.preparation {
+  background-color: #fff7fb;
+  border-radius: 12px;
+  margin: 0px auto 4px;
+  padding: 1px 0;
+}
+ul.prep {
+  padding-left: 50px;
+  margin-bottom: 24px;
+}
+.prep li {
+  padding-left: 20px;
+}
+ul.prep li::marker {
+  color: rgb(122, 40, 78);
+}
+body {
+  width: 100%;
+  background-color: rgb(243, 229, 215);
+  padding: 128px 352px;
+}
+main {
+  width: 100%;
+  margin: 0px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 24px;
+  padding: 10px 40px;
+}
+.ingredients,
+.instructions {
+  border-bottom: 1px solid #e3ddd7;
+  margin-bottom: 22px;
+}
+.ingred {
+  margin-bottom: -4px;
+}
+.ingr {
+  padding-bottom: 10px;
+}
+p,
+li,
+td {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  color: #5f564d;
+  font-weight: normal;
+  line-height: 200%;
+  letter-spacing: 0px;
+}
+ol li::marker {
+  color: rgb(133, 70, 50);
+  font-weight: bold;
+}
+ol li {
+  line-height: 1.5em;
+  margin-bottom: 8px;
+}
+li.last {
+  margin-bottom: 0px;
+}
+ul,
+ol {
+  padding-left: 25px;
+}
+.instr li,
+.ingr li {
+  padding-left: 20px;
+}
+ul li::marker {
+  color: rgb(133, 70, 50);
+  font-size: 0.8em;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0px auto 30px;
+}
+tr {
+  border-bottom: 1px solid rgb(227, 221, 215);
+  height: 50px;
+}
+.last {
+  border: none;
+}
+.instr {
+  padding-bottom: 10px;
+}
+.nutrition {
+  margin-bottom: 14px;
+}
+.table {
+  margin-bottom: 2px;
+}
+.col-2 {
+  font-size: 16px;
+  color: #854632;
+  font-weight: bold;
+  padding-right: 30px;
+}
+.col-1 {
+  padding-left: 30px;
+}
